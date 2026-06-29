@@ -1,0 +1,18 @@
+site_name: DAP Manual
+site_description: Homelab handbook for infrastructure, AI, Linux gaming, streaming and emulation.
+site_author: David Armstrong-Porter
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: README.md
+  - Roadmap: docs/00-Roadmap.md
+  - Introduction: docs/01-Introduction.md
