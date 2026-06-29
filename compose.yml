@@ -1,0 +1,7 @@
+services:
+  dap-manual:
+    build: .
+    container_name: dap-manual
+    ports:
+      - "8008:8000"
+    restart: unless-stopped
