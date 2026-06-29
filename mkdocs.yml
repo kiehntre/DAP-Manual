@@ -13,6 +13,12 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: README.md
-  - Roadmap: docs/00-Roadmap.md
-  - Introduction: docs/01-Introduction.md
+  - Home: index.md
+  - Roadmap: 00-Roadmap.md
+  - Introduction: 01-Introduction.md
+  - Core Infrastructure: 02-Core-Infrastructure/index.md
+  - AI: 03-AI/index.md
+  - Linux Gaming: 04-Linux-Gaming/index.md
+  - Streaming: 05-Streaming/index.md
+  - Emulation: 06-Emulation/index.md
+  - Playbooks: 07-Playbooks/index.md
