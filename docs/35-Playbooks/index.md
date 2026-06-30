@@ -9,7 +9,7 @@ Practical troubleshooting flows for the DAP homelab.
 - The `dap-manual` container was running.
 - Local access worked.
 - `curl -I http://127.0.0.1:8008` returned `HTTP 200`.
-- The public domain initially returned a Cloudflare `522`.
+- The public domain initially returned a Cloudflare error.
 
 ### Diagnosis
 
@@ -21,7 +21,6 @@ Confirmed working:
 - The Docker container started.
 - Port mapping worked.
 - Local HTTP access worked.
-- Traefik routing was checked separately.
 
 ### Lesson
 
@@ -37,12 +36,10 @@ Move outward:
 
 ### Useful commands
 
-    docker ps --filter name=dap-manual
-    docker logs dap-manual --tail=80
-    docker port dap-manual
-    curl -I http://127.0.0.1:8008
-    curl -I https://manual.daponline.com
-
-### Final note
-
-This was a good first real incident for the manual because it proved the value of documenting the actual diagnostic path instead of writing generic waffle.
+```bash
+docker ps --filter name=dap-manual
+docker logs dap-manual --tail=80
+docker port dap-manual
+curl -I http://127.0.0.1:8008
+curl -I https://manual.daponline.com
+```

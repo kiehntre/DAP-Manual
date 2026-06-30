@@ -20,7 +20,3 @@ ss -tulpn || true
 echo
 echo "== Docker Networks =="
 docker network ls || true
-
-echo
-echo "== Docker Containers =="
-docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}' || true

@@ -1,52 +1,33 @@
 # Homelab Architecture
 
-## Purpose
+## Overview
 
-The DAP Manual documents the design, operation, maintenance and evolution of the homelab.
+The reference architecture for the whole environment.
 
-It is the single source of truth for infrastructure, AI, gaming, emulation, media services, networking, development and troubleshooting.
+## Goals
 
-## Design Philosophy
+- Explain the purpose of this area.
+- Document the working setup.
+- Record tested commands.
+- Capture common problems and fixes.
+- Keep notes specific to the DAP homelab.
 
-- Diagnose before changing.
-- Prefer reproducible configuration.
-- Use Docker where it makes sense.
-- Keep services documented.
-- Use Git for anything important.
-- Prefer read-only inspection before repair.
-- Keep backups before major maintenance.
+## Dave's Setup
 
-## Current High-Level Layout
+_To be filled with tested details._
 
-```text
-Internet
-  |
-Cloudflare
-  |
-OPNsense
-  |
-Proxmox VE
-  |
-  +-- VM101: OPNsense
-  +-- VM201: Saltbox / Docker / AI / Docs
-  +-- Other Linux and gaming workloads
-```
+## Installation
 
-## Core Components
+_To be expanded._
 
-| Area | Main Tools |
-|---|---|
-| Virtualisation | Proxmox VE |
-| Firewall | OPNsense |
-| Containers | Docker Compose |
-| Media | Saltbox, Plex, Jellyfin, Arrs |
-| AI | Open WebUI, Ollama, cloud APIs |
-| Gaming | Steam, Proton, Wine |
-| Streaming | Sunshine, Moonlight |
-| Emulation | ES-DE, RetroDECK, RetroArch, Xemu, RPCS3, PCSX2 |
-| Development | Rust, Python, Bash, Git |
+## Configuration
 
-## Documentation Rule
+_To be expanded._
 
-!!! tip
-    Every time a real problem is solved, it should become either a chapter update, a troubleshooting playbook, or a script.
+## Troubleshooting
+
+_To be expanded._
+
+## Quick Reference
+
+_To be expanded._

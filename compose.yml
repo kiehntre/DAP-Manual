@@ -9,6 +9,7 @@ services:
       - saltbox
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.network=saltbox"
       - "traefik.http.routers.dap-manual.rule=Host(`manual.daponline.com`)"
       - "traefik.http.routers.dap-manual.entrypoints=websecure"
       - "traefik.http.routers.dap-manual.tls=true"

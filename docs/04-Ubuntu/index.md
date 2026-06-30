@@ -14,17 +14,13 @@ Server administration, packages, services, users and maintenance.
 
 ## Dave's Setup
 
-_To be filled with the current tested setup._
+_To be filled with tested details._
 
 ## Installation
 
 _To be expanded._
 
 ## Configuration
-
-_To be expanded._
-
-## Operations
 
 _To be expanded._
 
@@ -35,9 +31,3 @@ _To be expanded._
 ## Quick Reference
 
 _To be expanded._
-
-## Change Log
-
-| Date | Change |
-|---|---|
-| 2026-06-30 | Chapter scaffold created. |

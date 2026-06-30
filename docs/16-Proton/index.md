@@ -2,60 +2,26 @@
 
 ## Overview
 
-Proton allows Windows games to run on Linux through Wine, DXVK, VKD3D and Steam integration.
+Proton allows Windows games to run on Linux through Steam, Wine, DXVK and VKD3D.
 
-## When to Use Proton
+## Recommended troubleshooting order
 
-Use Proton for:
+1. Try Proton Experimental.
+2. Try latest stable Proton.
+3. Try Proton-GE.
+4. Check logs.
+5. Check Vulkan.
+6. Check launch options.
+7. Check prefix corruption.
 
-- Steam Windows games
-- Non-Steam Windows games added to Steam
-- Games streamed through Sunshine
-- Games that benefit from Steam Input
-
-## Recommended Versions
-
-Start with:
-
-1. Proton Experimental
-2. Latest stable Proton
-3. Proton-GE
-4. Older Proton versions for stubborn games
-
-## Non-Steam Game Pattern
-
-1. Add the `.exe` to Steam.
-2. Right click game.
-3. Properties.
-4. Compatibility.
-5. Force a Proton version.
-6. Launch once.
-7. Adjust launch options if needed.
-
-## Logs
+## Enable logs
 
 ```bash
 PROTON_LOG=1 %command%
 ```
 
-Logs usually appear in the home directory as:
-
-```text
-steam-APPID.log
-```
-
-## Common Fixes
-
-| Symptom | First Checks |
-|---|---|
-| Game does not launch | Proton version, missing redistributables, path spaces |
-| Black screen | Video codecs, fullscreen mode, Gamescope |
-| No audio | PipeWire/PulseAudio, Wine audio config |
-| Poor FPS | Vulkan driver, shader compilation, DXVK cache |
-| Controller missing | Steam Input, udev, Bluetooth, Moonlight forwarding |
-
 ## DAP Notes
 
-- Prefer Steam + Proton for non-Steam games when they are streamed through Sunshine.
+- Proton is often best for non-Steam games that are launched through Steam for Sunshine streaming.
+- Newest is not always best.
 - Use separate prefixes for messy games.
-- Do not assume the newest Proton is always best.

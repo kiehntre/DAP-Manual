@@ -2,9 +2,9 @@
 
 A living technical handbook for the DAP homelab.
 
-It documents infrastructure, AI, Linux gaming, game streaming, emulation, media services, development workflows, and troubleshooting playbooks.
+This project documents infrastructure, Docker, Saltbox, AI, Linux gaming, streaming, emulation, development workflows and real troubleshooting cases.
 
-## Local preview
+## Preview
 
 ```bash
 docker compose up -d --build
@@ -15,3 +15,10 @@ Then open:
 ```text
 http://localhost:8008
 ```
+
+## Working style
+
+- Use Git for changes.
+- Prefer tested commands.
+- Record real incidents.
+- Keep examples practical.

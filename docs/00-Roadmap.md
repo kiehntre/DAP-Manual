@@ -1,25 +1,17 @@
 # Roadmap
 
-## Version 1
+## Version 0.2
 
-- Create the site structure.
-- Add all major chapters.
-- Add Docker deployment.
-- Add GitHub Actions.
-- Add first diagnostic scripts.
-- Begin filling real-world content.
+- Full chapter scaffold.
+- Dockerised MkDocs site.
+- First real Docker chapter.
+- First diagnostic scripts.
+- First incident-style playbook.
 
-## Version 2
+## Next
 
-- Add diagrams.
-- Add troubleshooting flowcharts.
-- Add PDF export.
-- Add Open WebUI knowledge integration.
-- Add AI prompt library.
-
-## Version 3
-
-- Add full DAP Tools suite.
-- Add automated health reports.
-- Add infrastructure inventory.
-- Add rebuild playbook.
+- Add Proxmox chapter.
+- Add Sunshine chapter.
+- Add Proton chapter.
+- Add DAP Doctor.
+- Add inventory generation.
