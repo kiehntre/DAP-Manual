@@ -1,31 +1,25 @@
 # Roadmap
 
-## Phase 1
-- Build repository structure
-- Add MkDocs site
-- Add first core chapters
+## Version 1
 
-## Phase 2
-- Proxmox
-- OPNsense
-- Docker
-- Saltbox
+- Create the site structure.
+- Add all major chapters.
+- Add Docker deployment.
+- Add GitHub Actions.
+- Add first diagnostic scripts.
+- Begin filling real-world content.
 
-## Phase 3
-- AI stack
-- Open WebUI
-- Ollama
-- LiteLLM
-- OpenHands/OpenCode
+## Version 2
 
-## Phase 4
-- Linux gaming
-- Steam
-- Proton
-- Wine
-- Sunshine/Moonlight
-- Emulation
+- Add diagrams.
+- Add troubleshooting flowcharts.
+- Add PDF export.
+- Add Open WebUI knowledge integration.
+- Add AI prompt library.
 
-## Phase 5
-- Troubleshooting playbooks
-- Diagnostic scripts
+## Version 3
+
+- Add full DAP Tools suite.
+- Add automated health reports.
+- Add infrastructure inventory.
+- Add rebuild playbook.

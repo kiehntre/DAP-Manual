@@ -1,14 +1,19 @@
 # DAP Manual
 
-A living handbook for my homelab, covering Proxmox, OPNsense, Saltbox, Docker, AI, Linux gaming, Sunshine/Moonlight, Wine, Proton, emulation, and development.
+Welcome to the DAP Manual.
 
-## Main Areas
+This is the operating handbook for the homelab. It exists so working fixes, commands, designs, and lessons do not vanish into old chat logs.
+
+## What this manual covers
 
 - Core infrastructure
-- AI engineer stack
+- AI engineering
 - Linux gaming
 - Sunshine and Moonlight
 - Emulation
-- Media stack
+- Media services
 - Development
-- Troubleshooting playbooks
+- Troubleshooting
+
+!!! tip "Rule of the manual"
+    If a fix works, document it. If a command matters, save it. If a setting took hours to discover, never leave it to memory again.

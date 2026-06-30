@@ -3,6 +3,8 @@ services:
     build: .
     container_name: dap-manual
     restart: unless-stopped
+    ports:
+      - "8008:8000"
     networks:
       - saltbox
     labels:

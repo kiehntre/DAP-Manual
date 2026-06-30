@@ -11,14 +11,77 @@ theme:
     - search.highlight
     - search.suggest
     - content.code.copy
+    - content.tabs.link
+    - navigation.indexes
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
   - Roadmap: 00-Roadmap.md
-  - Introduction: 01-Introduction.md
-  - Core Infrastructure: 02-Core-Infrastructure/index.md
-  - AI: 03-AI/index.md
-  - Linux Gaming: 04-Linux-Gaming/index.md
-  - Streaming: 05-Streaming/index.md
-  - Emulation: 06-Emulation/index.md
-  - Playbooks: 07-Playbooks/index.md
+  - Architecture: 01-Homelab-Architecture/index.md
+  - Infrastructure:
+      - Proxmox: 02-Proxmox/index.md
+      - OPNsense: 03-OPNsense/index.md
+      - Ubuntu: 04-Ubuntu/index.md
+      - Docker: 05-Docker/index.md
+      - Saltbox: 06-Saltbox/index.md
+      - Networking: 07-Networking/index.md
+  - AI:
+      - AI Engineer: 08-AI-Engineer/index.md
+      - Open WebUI: 09-Open-WebUI/index.md
+      - Ollama: 10-Ollama/index.md
+      - LiteLLM: 11-LiteLLM/index.md
+      - OpenHands: 12-OpenHands/index.md
+      - OpenCode: 13-OpenCode/index.md
+  - Linux Gaming:
+      - Overview: 14-Linux-Gaming/index.md
+      - Steam: 15-Steam/index.md
+      - Proton: 16-Proton/index.md
+      - Wine: 17-Wine/index.md
+      - Heroic: 18-Heroic/index.md
+      - Lutris: 19-Lutris/index.md
+      - Bottles: 20-Bottles/index.md
+  - Streaming:
+      - Sunshine: 21-Sunshine/index.md
+      - Moonlight: 22-Moonlight/index.md
+  - Emulation:
+      - Overview: 23-Emulation/index.md
+      - ES-DE: 24-ES-DE/index.md
+      - RetroDECK: 25-RetroDECK/index.md
+      - RetroArch: 26-RetroArch/index.md
+      - Xemu: 27-Xemu/index.md
+      - RPCS3: 28-RPCS3/index.md
+      - PCSX2: 29-PCSX2/index.md
+      - Dolphin: 30-Dolphin/index.md
+      - RomM: 31-RomM/index.md
+      - LaunchBox: 32-LaunchBox/index.md
+  - Development:
+      - ArchiveFS: 33-ArchiveFS/index.md
+      - Development: 34-Development/index.md
+  - Playbooks: 35-Playbooks/index.md
+  - Appendix: 36-Appendix/index.md

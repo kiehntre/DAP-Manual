@@ -1,0 +1,9 @@
+/* DAP Manual custom CSS */
+
+.md-typeset h1 {
+  font-weight: 800;
+}
+
+.md-typeset code {
+  border-radius: 0.25rem;
+}
