@@ -2,6 +2,17 @@ services:
   dap-manual:
     build: .
     container_name: dap-manual
-    ports:
-      - "8008:8000"
     restart: unless-stopped
+    networks:
+      - saltbox
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dap-manual.rule=Host(`manual.daponline.com`)"
+      - "traefik.http.routers.dap-manual.entrypoints=websecure"
+      - "traefik.http.routers.dap-manual.tls=true"
+      - "traefik.http.routers.dap-manual.tls.certresolver=cloudflare"
+      - "traefik.http.services.dap-manual.loadbalancer.server.port=8000"
+
+networks:
+  saltbox:
+    external: true
