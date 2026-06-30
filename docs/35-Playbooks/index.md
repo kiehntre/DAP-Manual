@@ -1,43 +1,48 @@
 # Playbooks
 
-## Overview
+Practical troubleshooting flows for the DAP homelab.
 
-Practical symptom-to-fix troubleshooting flows.
+## Case 0001 - DAP Manual Docker Deployment
 
-## Goals
+### Symptoms
 
-- Explain the purpose of this area.
-- Document the working setup.
-- Record tested commands.
-- Capture common problems and fixes.
-- Keep notes specific to the DAP homelab.
+- The `dap-manual` container was running.
+- Local access worked.
+- `curl -I http://127.0.0.1:8008` returned `HTTP 200`.
+- The public domain initially returned a Cloudflare `522`.
 
-## Dave's Setup
+### Diagnosis
 
-_To be filled with the current tested setup._
+Docker was not the problem.
 
-## Installation
+Confirmed working:
 
-_To be expanded._
+- MkDocs built successfully.
+- The Docker container started.
+- Port mapping worked.
+- Local HTTP access worked.
+- Traefik routing was checked separately.
 
-## Configuration
+### Lesson
 
-_To be expanded._
+If localhost returns `HTTP 200`, do not waste time blaming the application container first.
 
-## Operations
+Move outward:
 
-_To be expanded._
+1. Container
+2. Docker network
+3. Traefik
+4. Firewall/NAT
+5. Cloudflare/DNS
 
-## Troubleshooting
+### Useful commands
 
-_To be expanded._
+    docker ps --filter name=dap-manual
+    docker logs dap-manual --tail=80
+    docker port dap-manual
+    curl -I http://127.0.0.1:8008
+    curl -I https://manual.daponline.com
 
-## Quick Reference
+### Final note
 
-_To be expanded._
-
-## Change Log
-
-| Date | Change |
-|---|---|
-| 2026-06-30 | Chapter scaffold created. |
+This was a good first real incident for the manual because it proved the value of documenting the actual diagnostic path instead of writing generic waffle.
