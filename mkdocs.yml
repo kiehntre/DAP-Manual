@@ -84,4 +84,8 @@ nav:
       - ArchiveFS: 33-ArchiveFS/index.md
       - Development: 34-Development/index.md
   - Playbooks: 35-Playbooks/index.md
+  - Inventory:
+      - System Snapshot: 99-Inventory/System-Snapshot.md
+      - Proxmox Snapshot: 99-Inventory/Proxmox-Snapshot.md
+      - Health Report: 99-Inventory/Health-Report.md
   - Appendix: 36-Appendix/index.md
