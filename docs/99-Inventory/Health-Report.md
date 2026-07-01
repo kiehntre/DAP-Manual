@@ -10,7 +10,7 @@ Generated automatically by DAP Doctor v0.3.
 | Kernel | 6.8.0-124-generic |
 | OS | Linux (Ubuntu 24.04) |
 | CPU Threads | 28 |
-| Memory Used | 39.9 GB |
+| Memory Used | 24.8 GB |
 | Memory Total | 47.0 GB |
 
 ## Status
