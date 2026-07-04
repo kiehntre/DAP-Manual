@@ -80,6 +80,113 @@ nav:
       - Dolphin: 30-Dolphin/index.md
       - RomM: 31-RomM/index.md
       - LaunchBox: 32-LaunchBox/index.md
+  - DAP Retro Bible:
+      - Overview: retro-bible/README.md
+      - Style Guide: retro-bible/STYLE-GUIDE.md
+      - Chapters:
+          - Preface: retro-bible/chapters/00-preface.md
+          - Foundations And Philosophy: retro-bible/chapters/01-foundations-and-philosophy.md
+          - Why Preservation Matters: retro-bible/chapters/01-why-preservation-matters.md
+          - Hall Of Fame: retro-bible/chapters/02-hall-of-fame.md
+          - Hall Of Shame: retro-bible/chapters/03-hall-of-shame.md
+          - Preservation Toolkit: retro-bible/chapters/04-preservation-toolkit.md
+          - Metadata Vs Storage: retro-bible/chapters/05-metadata-vs-storage.md
+          - Archive Formats And Compression: retro-bible/chapters/06-archive-formats-and-compression.md
+          - Bios And Firmware: retro-bible/chapters/07-bios-and-firmware.md
+          - Choosing An Emulator: retro-bible/chapters/08-choosing-an-emulator.md
+          - Front Ends: retro-bible/chapters/09-front-ends.md
+          - Storage Architecture: retro-bible/chapters/10-storage-architecture.md
+          - Troubleshooting Reference: retro-bible/chapters/100-troubleshooting-reference.md
+          - Chapter Index And Editorial Roadmap: retro-bible/chapters/101-chapter-index-and-editorial-roadmap.md
+          - Linux Foundations: retro-bible/chapters/11-linux-foundations.md
+          - Docker For Retro Gaming: retro-bible/chapters/12-docker-for-retro-gaming.md
+          - Flatpak Vs Native Packages: retro-bible/chapters/13-flatpak-vs-native-packages.md
+          - Steam Proton And Non Steam Games: retro-bible/chapters/14-steam-proton-and-non-steam-games.md
+          - Sunshine And Moonlight: retro-bible/chapters/15-sunshine-and-moonlight.md
+          - Emulator Configuration Philosophy: retro-bible/chapters/16-emulator-configuration-philosophy.md
+          - Controller Configuration: retro-bible/chapters/17-controller-configuration.md
+          - Shaders Filters And Crt Simulation: retro-bible/chapters/18-shaders-filters-and-crt-simulation.md
+          - Save Files Save States And Backups: retro-bible/chapters/19-save-files-save-states-and-backups.md
+          - Bios Organisation And Verification: retro-bible/chapters/20-bios-organisation-and-verification.md
+          - Rom Dumps And Verification: retro-bible/chapters/21-rom-dumps-and-verification.md
+          - Disc Images Chd Rvz And Wua: retro-bible/chapters/22-disc-images-chd-rvz-and-wua.md
+          - Rom Managers And Dat Files: retro-bible/chapters/23-rom-managers-and-dat-files.md
+          - Romm Library Management: retro-bible/chapters/24-romm-library-management.md
+          - Es De In Practice: retro-bible/chapters/25-es-de-in-practice.md
+          - Launchbox And Big Box On Linux: retro-bible/chapters/26-launchbox-and-big-box-on-linux.md
+          - Pegasus And Alternative Frontends: retro-bible/chapters/27-pegasus-and-alternative-frontends.md
+          - Controller Profiles And Input Mapping: retro-bible/chapters/28-controller-profiles-and-input-mapping.md
+          - Steam Input And Shortcuts: retro-bible/chapters/29-steam-input-and-shortcuts.md
+          - Sunshine Host Configuration: retro-bible/chapters/30-sunshine-host-configuration.md
+          - Moonlight Clients And Handhelds: retro-bible/chapters/31-moonlight-clients-and-handhelds.md
+          - Network Storage And Permissions: retro-bible/chapters/32-network-storage-and-permissions.md
+          - Docker Services For Retro Libraries: retro-bible/chapters/33-docker-services-for-retro-libraries.md
+          - Hd Texture Packs: retro-bible/chapters/34-hd-texture-packs.md
+          - Widescreen Hacks And Patches: retro-bible/chapters/35-widescreen-hacks-and-patches.md
+          - Translation Romhacks And Mods: retro-bible/chapters/36-translation-romhacks-and-mods.md
+          - Arcade And Mame Sets: retro-bible/chapters/37-arcade-and-mame-sets.md
+          - Computer Systems Keyboards And Media: retro-bible/chapters/38-computer-systems-keyboards-and-media.md
+          - Digital Stores Lost Services And Delisting: retro-bible/chapters/39-digital-stores-lost-services-and-delisting.md
+          - Maintenance Audits And The Long Game: retro-bible/chapters/40-maintenance-audits-and-the-long-game.md
+          - Ubuntu For Retro Gaming: retro-bible/chapters/41-ubuntu-for-retro-gaming.md
+          - Fedora Nobara And Modern Linux Gaming: retro-bible/chapters/42-fedora-nobara-and-modern-linux-gaming.md
+          - Arch And Rolling Release Setups: retro-bible/chapters/43-arch-and-rolling-release-setups.md
+          - Appimage And Portable Builds: retro-bible/chapters/44-appimage-and-portable-builds.md
+          - Wine Outside Steam: retro-bible/chapters/45-wine-outside-steam.md
+          - Remote Gaming Design: retro-bible/chapters/46-remote-gaming-design.md
+          - Gpu Passthrough And Virtual Machines: retro-bible/chapters/47-gpu-passthrough-and-virtual-machines.md
+          - Homelabs Nas And Storage Servers: retro-bible/chapters/48-homelabs-nas-and-storage-servers.md
+          - Arcade Systems: retro-bible/chapters/49-arcade-systems.md
+          - Nintendo Entertainment System: retro-bible/chapters/50-nintendo-entertainment-system.md
+          - Super Nintendo Entertainment System: retro-bible/chapters/51-super-nintendo-entertainment-system.md
+          - Nintendo 64: retro-bible/chapters/52-nintendo-64.md
+          - Nintendo Gamecube: retro-bible/chapters/53-nintendo-gamecube.md
+          - Nintendo Wii: retro-bible/chapters/54-nintendo-wii.md
+          - Nintendo Wii U: retro-bible/chapters/55-nintendo-wii-u.md
+          - Nintendo Switch: retro-bible/chapters/56-nintendo-switch.md
+          - Sega Master System: retro-bible/chapters/57-sega-master-system.md
+          - Sega Mega Drive And Genesis: retro-bible/chapters/58-sega-mega-drive-and-genesis.md
+          - Sega 32X: retro-bible/chapters/59-sega-32x.md
+          - Sega Saturn: retro-bible/chapters/60-sega-saturn.md
+          - Sega Dreamcast: retro-bible/chapters/61-sega-dreamcast.md
+          - Sega Game Gear: retro-bible/chapters/62-sega-game-gear.md
+          - Sony Playstation: retro-bible/chapters/63-sony-playstation.md
+          - Sony Playstation 2: retro-bible/chapters/64-sony-playstation-2.md
+          - Sony Playstation 3: retro-bible/chapters/65-sony-playstation-3.md
+          - Sony Psp: retro-bible/chapters/66-sony-psp.md
+          - Sony Ps Vita: retro-bible/chapters/67-sony-ps-vita.md
+          - Microsoft Xbox: retro-bible/chapters/68-microsoft-xbox.md
+          - Microsoft Xbox 360: retro-bible/chapters/69-microsoft-xbox-360.md
+          - Nintendo Game Boy: retro-bible/chapters/70-nintendo-game-boy.md
+          - Nintendo Game Boy Color: retro-bible/chapters/71-nintendo-game-boy-color.md
+          - Nintendo Game Boy Advance: retro-bible/chapters/72-nintendo-game-boy-advance.md
+          - Nintendo Ds: retro-bible/chapters/73-nintendo-ds.md
+          - Nintendo 3Ds: retro-bible/chapters/74-nintendo-3ds.md
+          - Atari Systems: retro-bible/chapters/75-atari-systems.md
+          - Commodore Systems: retro-bible/chapters/76-commodore-systems.md
+          - Amiga: retro-bible/chapters/77-amiga.md
+          - Amstrad Cpc: retro-bible/chapters/78-amstrad-cpc.md
+          - Zx Spectrum: retro-bible/chapters/79-zx-spectrum.md
+          - Ms Dos Gaming: retro-bible/chapters/80-ms-dos-gaming.md
+          - Windows Gaming Preservation: retro-bible/chapters/81-windows-gaming-preservation.md
+          - Scummvm: retro-bible/chapters/82-scummvm.md
+          - Other Important Systems: retro-bible/chapters/83-other-important-systems.md
+          - Internet Archive And Public Preservation: retro-bible/chapters/84-internet-archive-and-public-preservation.md
+          - Preservation Projects And Community Efforts: retro-bible/chapters/85-preservation-projects-and-community-efforts.md
+          - Legal Landscape For Preservation: retro-bible/chapters/86-legal-landscape-for-preservation.md
+          - Fpga And Hardware Preservation: retro-bible/chapters/87-fpga-and-hardware-preservation.md
+          - Future Of Emulation: retro-bible/chapters/88-future-of-emulation.md
+          - Ai Restoration And Upscaling: retro-bible/chapters/89-ai-restoration-and-upscaling.md
+          - Audio Restoration And Music Preservation: retro-bible/chapters/90-audio-restoration-and-music-preservation.md
+          - Community Tools And Utilities: retro-bible/chapters/91-community-tools-and-utilities.md
+          - Glossary: retro-bible/chapters/92-glossary.md
+          - Reference Tables: retro-bible/chapters/93-reference-tables.md
+          - Bios Reference: retro-bible/chapters/94-bios-reference.md
+          - Compression Reference: retro-bible/chapters/95-compression-reference.md
+          - Controller Reference: retro-bible/chapters/96-controller-reference.md
+          - Recommended Folder Structures: retro-bible/chapters/97-recommended-folder-structures.md
+          - Recommended Hardware: retro-bible/chapters/98-recommended-hardware.md
+          - Recommended Linux Distributions: retro-bible/chapters/99-recommended-linux-distributions.md
   - Development:
       - ArchiveFS: 33-ArchiveFS/index.md
       - Development: 34-Development/index.md
