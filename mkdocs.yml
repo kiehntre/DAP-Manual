@@ -81,6 +81,7 @@ nav:
       - RomM: 31-RomM/index.md
       - LaunchBox: 32-LaunchBox/index.md
   - DAP Retro Bible:
+      - Master Plan: retro-bible/MASTER-PLAN.md
       - Overview: retro-bible/README.md
       - Style Guide: retro-bible/STYLE-GUIDE.md
       - Chapters:
