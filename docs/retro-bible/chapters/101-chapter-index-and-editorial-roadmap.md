@@ -42,10 +42,12 @@ These need extra review:
 
 ## What Comes Next
 
-The preservation mega-pass adds four practical chapters after this editorial
-index: evidence-based identification, optical/tape preservation, computer
-media/family identity, and obscure-platform/museum context. They are deliberately
-cross-linked to the existing system chapters and distinguish implemented
-EmuWiz behavior from partial and future work. Next comes fact-checking,
-screenshots, diagrams and human editing rather than pretending the roadmap is
-finished.
+The preservation mega-pass adds practical chapters after this editorial index:
+evidence-based identification, optical/tape preservation, computer media/family
+identity, and obscure-platform/museum context. The whole-journey mega-pass then
+adds the operational lessons: local-first scanning, projections, DAT and web
+provider limits, readiness and WHDLoad, cheats and repair, concurrency and
+packaging, human smoke testing, and real-corpus validation. They are deliberately
+cross-linked and distinguish implemented behavior from partial, researched and
+future work. Next comes fact-checking, screenshots, diagrams and human editing
+rather than pretending the roadmap is finished.

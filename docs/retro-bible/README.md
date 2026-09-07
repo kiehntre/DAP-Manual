@@ -28,6 +28,21 @@ It is written for a Linux-first setup, with Sunshine/Moonlight streaming, ES-DE,
 14. Optical and tape preservation
 15. Computer media and unusual platform identity
 16. Human, community and museum context
+17. The EmuWiz journey and local-first operations
+18. Scanning, projections and frontend-safe organisation
+19. DAT, metadata providers and enrichment limits
+20. Readiness, BIOS and WHDLoad launch safety
+21. Cheats, mods and reversible repair
+22. Development, concurrency, packaging and release hygiene
+23. Human smoke tests and useful Unknown/Ambiguous workflows
+24. Real-corpus validation, strange media and the long view
+25. Operational playbooks for real collections
+26. Evidence fusion and the future roadmap
+
+The second EmuWiz mega-pass is an operational companion to the preservation
+chapters. It extracts lessons from real scanning, launch, cheat, packaging,
+recovery and QA work without turning the Bible into a commit log. Each chapter
+labels current behavior as implemented, partial, researched or future-facing.
 
 ## Writing rules
 
