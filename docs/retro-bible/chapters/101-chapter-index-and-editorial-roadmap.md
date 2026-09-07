@@ -42,4 +42,10 @@ These need extra review:
 
 ## What Comes Next
 
-Next comes the work itself: expanding, testing, checking and polishing The DAP Retro Bible into the book it is meant to become.
+The preservation mega-pass adds four practical chapters after this editorial
+index: evidence-based identification, optical/tape preservation, computer
+media/family identity, and obscure-platform/museum context. They are deliberately
+cross-linked to the existing system chapters and distinguish implemented
+EmuWiz behavior from partial and future work. Next comes fact-checking,
+screenshots, diagrams and human editing rather than pretending the roadmap is
+finished.

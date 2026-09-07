@@ -24,6 +24,10 @@ It is written for a Linux-first setup, with Sunshine/Moonlight streaming, ES-DE,
 10. Preservation toolkit
 11. Troubleshooting cookbook
 12. Curated game recommendations
+13. Evidence-based identification and DAT practice
+14. Optical and tape preservation
+15. Computer media and unusual platform identity
+16. Human, community and museum context
 
 ## Writing rules
 
